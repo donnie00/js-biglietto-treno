@@ -25,4 +25,13 @@ td {
 	padding: 0.5rem;
 	margin: 1rem;
 	border-radius: 1rem;
+
+	text-align: center;
+}
+
+.price-row {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: center;
 }
