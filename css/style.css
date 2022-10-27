@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: wheat;
+}
+
+h1 {
+	text-align: center;
+}
+
+table {
+	border: 1px solid beige;
+	margin: auto;
+}
+
+td {
+	padding: 0.5rem 1rem;
+	margin: 1rem 0;
+}
+
+.price-field {
+	background-color: beige;
+	padding: 0.5rem;
+	margin: 1rem;
+	border-radius: 1rem;
+}

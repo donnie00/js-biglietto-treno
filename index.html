@@ -6,17 +6,50 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Biglietto treno</title>
+   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
    <main>
       <h1>Acquista ora il tuo biglietto</h1>
 
-      <h3>Totale senza sconto: <span id="firstPrice"></span>&euro;</h3>
-      <h3>Totale con sconto applicato: <span id="actualPrice"></span>&euro;</h3>
+      <table>
+         <thead>
+            <tr>
+               <th>Tariffe</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Base</td>
+               <td>
+                  <em>0,21&euro;/km</em>
+               </td>
+            </tr>
+            <tr>
+               <td>Under 18</td>
+               <td>
+                  <em>Sconto 20&percnt;</em>
+               </td>
+            </tr>
+            <tr>
+               <td>Over 65</td>
+               <td>
+                  <em>Sconto 40&percnt;</em>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+
+      <div class="price-field">
+         <h3>Totale senza sconto: <span id="firstPrice"></span>&euro;</h3>
+      </div>
+      <div class="price-field">
+         <h3>Totale con sconto applicato: <span id="actualPrice"></span>&euro;</h3>
+      </div>
    </main>
 
-   <script src="js/main.js"></script>
+   <!-- <script src="js/main.js"></script> -->
 </body>
 
 </html>
